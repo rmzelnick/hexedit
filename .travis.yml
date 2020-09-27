@@ -1,0 +1,5 @@
+language: cpp
+before_script:
+        ./bootstrap.sh
+script:
+        ./configure && make && make check

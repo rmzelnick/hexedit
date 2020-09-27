@@ -1,0 +1,96 @@
+/*! \mainpage notitle
+ *  \section hexedit Hexedit
+ *  
+ *  A hex editor (or binary file editor or byte editor) is a computer program
+ *  that allows for manipulation of the fundamental binary data that
+ *  constitutes a computer file. The name 'hex' comes from 'hexadecimal': a
+ *  standard numerical format for representing binary data. A typical computer
+ *  file occupies multiple areas on the platter(s) of a disk drive, whose
+ *  contents are combined to form the file. Hex editors that are designed to
+ *  parse and edit sector data from the physical segments of floppy or hard
+ *  disks are sometimes called sector editors or disk editors. 
+ *
+ *  \section getting_started Getting Started
+ *
+ *  These instructions will get you a copy of the project up and running on
+ *  your local machine for development and testing purposes. See deployment for
+ *  notes on how to deploy the project on a live system.
+ *
+ *  \subsection prerequisites Prerequisites
+ *
+ *  In order to be able to install Hexedit you will need the following
+ *  software: Make, Autoconf, Automake, GCC, and optionally Doxygen if you wish
+ *  to generate documentation. If you're using a Windows system you may need to
+ *  install cygwin and use its package manager to install the aforementioned
+ *  tools.
+ *
+ *  \subsection install Installing
+ *
+ *  The installation process is fairly simple once the prerequisites tools have
+ *  been acquired. The first step is to generate a configure script and run it.
+ *
+ *  \code{.sh}
+ *  $ ./bootstrap.sh
+ *  $ ./configure
+ *  \endcode
+ *
+ *  The next step is to build and install the software using make,
+ *
+ *  \code{.sh}
+ *  $ make
+ *  $ make install
+ *  \endcode
+ *
+ *  \section running_the_tests Running the tests
+ *
+ *  \code{.sh}
+ *  $ cd tests
+ *  $ g++ -I ../include/ -lcriterion -o test test.cpp ../src/hexedit.cpp
+ *  $ ./test
+ *  \endcode
+ *
+ *  This should check for the core functionality of the software.
+ *
+ *  \section built_with Built with
+ *
+ *  <ul>
+ *    <li><a href="https://gcc.gnu.org/">GNU Compiler Collection</a> - C++
+ *    compiler.</li>
+ *    <li><a href="https://www.gnu.org/software/make/">GNU Make</a> - a tool
+ *    which controls the generation of executables and other non-source files
+ *    of a program from the program's source files.</li>
+ *    <li><a href="https://www.gnu.org/software/autoconf/">GNU Autoconf</a> -
+ *    an extensible package of M4 macros that produce shell scripts to
+ *    automatically configure software source code packages.</li>
+ *    <li><a href="https://www.gnu.org/software/automake/">GNU Automake</a> - a
+ *    tool for automatically generating Makefile.in files compliant with the
+ *    GNU Coding Standards.</li>
+ *    <li><a href="http://www.doxygen.nl/">Doxygen</a> - de facto standard tool
+ *    for generating documentation from annotated C++ sources, but it also
+ *    supports other popular programming languages such as C, Objective-C, C#,
+ *    PHP, Java, Python, IDL (Corba, Microsoft, and UNO/OpenOffice flavors),
+ *    Fortran, VHDL, Tcl, and to some extent D.</li>
+ *    <li><a href="https://github.com/Snaipe/Criterion">Criterion</a> - A
+ *    dead-simple, yet extensible, C and C++ unit testing framework.</li>
+ *  </ul>
+ *
+ *  \section contributing Contributing
+ *
+ *  Please read <a href="contributing.html">CONTRIBUTING</a> for details on
+ *  our code of conduct, and the process for submitting pull requests to us.
+ *
+ *  \section versioning Versioning
+ *
+ *  We use <a href="http://semver.org">SemVer</a> for versioning. For the
+ *  versions available, see the <a href="https://github.com/rmzelnick/hexedit/tags">tags on this repository</a>.
+ *
+ *  \section authors Authors
+ *
+ *  <ul>
+ *    <li><b>Rimack Zelnick</b> - <i>Initial work</i> - <a href="https://github.com/rmzelnick">rmzelnick</a></li>
+ *  </ul>
+ *
+ *  \section license License
+ *
+ *  This project is licensed under the ISC License - see the <a href="license.html">LICENSE</a> file for details
+ */
