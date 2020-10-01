@@ -7,8 +7,11 @@ git stash save -q --keep-index $STASH_NAME
 ./bootstrap.sh
 ./configure
 make check
-
+cd tests
+./test
 RESULT=$?
+cd..
+
 git stash pop -q
 [ $RESULT -ne 0 ] && exit 1
 exit 0
