@@ -18,4 +18,5 @@ src/.dirstamp
 src/.deps/
 tests/.dirstamp
 tests/.deps/
+tests/test
 test-suite.log
