@@ -44,8 +44,8 @@
  *  \section running_the_tests Running the tests
  *
  *  \code{.sh}
+ *  $ make check
  *  $ cd tests
- *  $ g++ -I ../include/ -lcriterion -o test test.cpp ../src/hexedit.cpp
  *  $ ./test
  *  \endcode
  *

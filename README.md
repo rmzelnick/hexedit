@@ -48,8 +48,8 @@ and comes with one unit test. Once Criterion is installed the tests can be
 built the following way,
 
 ```
+$ make check
 $ cd tests
-$ g++ -I ../include/ -lcriterion -o test test.cpp ../src/hexedit.cpp
 $ ./test
 ```
 
