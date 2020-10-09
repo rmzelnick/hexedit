@@ -1,8 +1,8 @@
 /*! \file hexedit.h
  *  \brief Contains declarations for the MVC architecture of hexedit.
  *  \author Rimack Zelnick
- *  \version 0.1.0
- *  \date 2020-09-27
+ *  \version 0.1.2
+ *  \date 2020-10-09
  *
  *  The hexedit project makes heavy use of the MVC architecture. The model
  *  holds information pertaining to an open file descriptor passed by the

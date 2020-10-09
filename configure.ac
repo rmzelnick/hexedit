@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([hexedit], [0.1.0], [mail@rzelnick.com])
+AC_INIT([hexedit], [0.1.2], [mail@rzelnick.com])
 AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([1.15 foreign subdir-objects])
 AX_CHECK_ENABLE_DEBUG([no])
