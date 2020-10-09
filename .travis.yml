@@ -2,4 +2,4 @@ language: cpp
 before_script:
         ./bootstrap.sh
 script:
-        ./configure && make
+        ./configure && make hexedit_CPPFLAGS="-Wall -Wextra -I include/ --std=c++11"
