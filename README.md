@@ -1,4 +1,5 @@
 # Hexedit
+[![Build Status](https://www.travis-ci.com/rmzelnick/hexedit.svg?branch=master)](https://www.travis-ci.com/rmzelnick/hexedit)
 
 ![Short demo](short_demo.gif)
 
